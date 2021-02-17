@@ -19,7 +19,9 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+*, :hover {
+    box-sizing: border-box;
+}
 body {
     width: 1440px;
     height: 1350px;
@@ -82,11 +84,11 @@ body {
 .nav__link {
     text-decoration: none;
     color: rgba(31, 32, 65, 0.5);
-    padding-left: 20px;
+    margin-left: 20px;
+    height: 100%;
 }
-.nav__link_about-us {
+.nav__link:hover {
     font-weight: 700;
-    padding-left: 0;
     color: rgba(31, 32, 65, 0.75);
 }
 .nav__dropdown {
