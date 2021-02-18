@@ -19,17 +19,18 @@
 	font-weight: normal;
 	font-style: normal;
 }
-*, :hover {
+* {
     box-sizing: border-box;
 }
 body {
     width: 1440px;
     height: 1350px;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Montserrat';
     font-size: 14px;
     background-color: #F4F4F4;
     padding-top: 140px;
+    position: relative;
 }
     
 .material-icons {
