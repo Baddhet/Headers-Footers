@@ -1,23 +1,27 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url('fonts/Montserrat-Regular.eot');
-    src: local('☺'), url('fonts/Montserrat-Regular.woff') format('woff'), url('fonts/Montserrat-Regular.ttf') format('truetype'), url('fonts/Montserrat-Regular.svg') format('svg');
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.eot");
+    src: local("☺"), url("../fonts/Montserrat-Regular.woff") format("woff"),
+        url("../fonts/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular.svg") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Montserrat';
-    src: url('fonts/Montserrat-Bold.eot');
-    src: local('☺'), url('fonts/Montserrat-Bold.woff') format('woff'), url('fonts/Montserrat-Bold.ttf') format('truetype'), url('fonts/Montserrat-Bold.svg') format('svg');
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.eot");
+    src: local("☺"), url("../fonts/Montserrat-Bold.woff") format("woff"),
+        url("../fonts/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat-Bold.svg") format("svg");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-	font-family: 'Material Icons';
-	src: url('fonts/MaterialIcons-Regular.eot');
-	src: local('☺'), url('fonts/MaterialIcons-Regular.woff') format('woff'), url('fonts/MaterialIcons-Regular.ttf') format('truetype'), url('fonts/MaterialIcons-Regular.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: "Material Icons";
+    src: url("../fonts/MaterialIcons-Regular.eot");
+    src: local("☺"), url("../fonts/MaterialIcons-Regular.woff") format("woff"),
+        url("../fonts/MaterialIcons-Regular.ttf") format("truetype"),
+        url("../fonts/MaterialIcons-Regular.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 * {
     box-sizing: border-box;
@@ -26,18 +30,18 @@ body {
     width: 1440px;
     height: 1350px;
     margin: 0 auto;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 14px;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     padding-top: 140px;
     position: relative;
 }
-    
+
 .material-icons {
-    font-family: 'Material Icons';
+    font-family: "Material Icons";
     font-weight: normal;
     font-style: normal;
-    font-size: 24px;  /* Preferred icon size */
+    font-size: 24px; /* Preferred icon size */
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -48,8 +52,8 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
-    font-feature-settings: 'liga';
-  }
+    font-feature-settings: "liga";
+}
 
 .logo {
     position: absolute;
@@ -66,7 +70,7 @@ body {
     height: 70px;
     width: 100%;
     margin-bottom: 40px;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
 
@@ -97,7 +101,7 @@ body {
     height: 22px;
     border: none;
     margin-left: 1px;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
     color: rgba(31, 32, 65, 0.5);
     padding: 0;
     cursor: pointer;
@@ -111,12 +115,12 @@ body {
     border: 0;
     padding: 2px;
     border-radius: 22px;
-    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
     cursor: pointer;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     line-height: 29.5px;
     outline: none;
 }
@@ -124,12 +128,12 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 22px;
-    background-color: rgb(255,255,255);
-    color: #BC9CFF;
+    background-color: rgb(255, 255, 255);
+    color: #bc9cff;
 }
 
 .nav__button-register {
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     width: 196px;
 }
 
@@ -146,7 +150,7 @@ body {
     height: 372px;
     padding: 100px 140px 0 140px;
     margin-bottom: 1px;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
 }
 
@@ -174,7 +178,7 @@ body {
     color: rgba(31, 32, 65, 0.75);
 }
 
-.footer__nav{
+.footer__nav {
     display: grid;
     width: 143px;
     height: 168px;
@@ -197,13 +201,14 @@ body {
     height: 84px;
     margin-left: 51px;
 }
-.footer__link_upper, .footer__subcribe_upper {
+.footer__link_upper,
+.footer__subcribe_upper {
     margin-bottom: 21.5px;
     margin-top: 4.5px;
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #1F2041;
+    color: #1f2041;
     text-decoration: none;
 }
 .footer__link {
@@ -212,7 +217,9 @@ body {
     line-height: 17px;
     color: rgba(31, 32, 65, 0.5);
 }
-.footer__subcribe_upper {margin-bottom: 4px;}
+.footer__subcribe_upper {
+    margin-bottom: 4px;
+}
 .footer__subcribe-text {
     color: rgba(31, 32, 65, 0.75);
     line-height: 24px;
@@ -232,18 +239,18 @@ body {
     color: rgba(31, 32, 65, 0.25);
     border: 1px solid rgba(31, 32, 65, 0.25);
     border-radius: 4px;
-    
+
     padding-left: 14px;
 }
 .footer__email-field:focus {
     outline: none;
     border-radius: 4px;
     border: 1px solid rgba(31, 32, 65, 0.75);
-} 
+}
 .footer__email-field::placeholder {
     color: rgba(31, 32, 65, 0.25);
     font-size: 14px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 .footer__email-button {
     position: absolute;
@@ -256,7 +263,7 @@ body {
     outline: none;
 }
 .arrow_forward {
-    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -271,7 +278,7 @@ body {
     height: 70px;
     padding-left: 140px;
     padding-right: 140px;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
     margin-bottom: 40px;
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
@@ -292,5 +299,5 @@ body {
     width: 768px;
     height: 367px;
     margin: 0 auto;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
 }
