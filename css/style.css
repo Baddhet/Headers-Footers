@@ -27,7 +27,7 @@
     box-sizing: border-box;
 }
 body {
-    width: 1440px;
+    min-width: 1440px;
     height: 1350px;
     margin: 0 auto;
     font-family: "Montserrat";
@@ -90,7 +90,6 @@ body {
     text-decoration: none;
     color: rgba(31, 32, 65, 0.5);
     margin-left: 20px;
-    height: 100%;
 }
 .nav__link:hover {
     font-weight: 700;
@@ -145,6 +144,7 @@ body {
 /* ---------------FOOTER--------------------*/
 .footer__page {
     display: flex;
+    justify-content: space-between;
     box-sizing: border-box;
     width: 100%;
     height: 372px;
